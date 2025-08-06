@@ -14,7 +14,7 @@ import numpy as np
 import scipy as sp
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import smooth_hsv_jjc as smooth_hsv
+import smooth_hsv
 import vector_tools as vt
 from matplotlib.colors import colorConverter
 

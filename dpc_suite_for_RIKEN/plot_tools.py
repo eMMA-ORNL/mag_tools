@@ -291,12 +291,12 @@ def plot_hsv(data, ftsize, Title='', colorbar=True, vmin=0.0, vmax=None,
             freq=False, cmap=False, freq_x=False, freq_y=False, len_frac=0.2):
 
     '''
-    This function uses smooth_hsv written by Tyler Harvey to plot a complex
-    array with brightness as the amplitude and color as the phase. The color
-    repeats itself every 2*pi
+    This function uses smooth_hsv written by Jordan Chess and modified by
+    Fehmi Yasin to plot a complex array with brightness as the amplitude
+    and color as the phase. The color repeats itself every 2*pi
     '''
 
-    from smooth_hsv_trh import smooth_hsv as hsv
+    import smooth_hsv as hsv
     
     if colorwheel == True:
         image = hsv(data, o = offset)
